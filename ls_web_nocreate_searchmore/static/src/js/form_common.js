@@ -11,7 +11,7 @@ odoo.define('ls_nocreate_searchmore.form_common', function (require) {
 
       self = this;
       (new Model("ir.config_parameter"))
-        .query(["key", "value"]).filter([['key', '=', 'ls_nocreate_searchmore.active']])
+        .query(["key", "value"]).filter([['key', '=', 'ls_web_nocreate_searchmore.active']])
         .all().then(function (records) {
         _(records).each(function (record) {
           if (self.is_option_set((record.value))) {
