@@ -1,13 +1,9 @@
 # -*- coding: utf-8 -*-
 {
-    'name': "Search More with No Create Button",
+    'name': "No Create on Search More",
 
     'summary': """
         Remove Create button in Search More.""",
-
-    'description': """
-        Remove Create button in Search View after clicking Search More in Many2One field.
-    """,
 
     'author': "Linksoft Mitra Informatika",
     'website': "https://linksoft.id",
