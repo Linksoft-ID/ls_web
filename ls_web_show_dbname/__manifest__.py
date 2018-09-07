@@ -26,7 +26,7 @@
         # view
 
         # menu
-
+        'views/views.xml',
         # security
     ],
     # only loaded in demonstration mode
