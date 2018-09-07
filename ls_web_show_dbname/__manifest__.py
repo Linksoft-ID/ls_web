@@ -4,6 +4,8 @@
     'summary': """Show Database Name on Hover in Debug Mode""",
     'author': "Linksoft Mitra Informatika",
     'website': "https://linksoft.id",
+    'installable': True,
+    'auto_install': True,
     # Check here: https://github.com/odoo/odoo/blob/10.0/odoo/addons/base/module/module_data.xml
     'category': 'Extra Tools',
     'version': '1.0.0',
